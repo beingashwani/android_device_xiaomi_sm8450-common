@@ -76,6 +76,9 @@ persist.vendor.camera.sensor 0
 # Chipset
 ro.soc.manufacturer=QTI
 
+# Chipset
+ro.soc.manufacturer=QTI
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
