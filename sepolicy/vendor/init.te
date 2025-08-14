@@ -5,6 +5,3 @@ set_prop(vendor_init, vendor_ssr_prop)
 set_prop(vendor_init, vendor_qcc_prop)
 
 allow init sysfs_devices_system_cpu:file rw_file_perms;
-
-# Allow init to write to bypass charging node
-allow init sysfs_batteryinput_suspend:file rw_file_perms;
