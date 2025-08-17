@@ -78,6 +78,10 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 vendor.hw.fm.init=0
 
+# blur combo
+persist.display.blur_alpha=20
+persist.sysui.blur_radius=8
+
 # Camera
 camera.disable_zsl_mode=true
 persist.vendor.vcb.enable=false
