@@ -317,8 +317,7 @@ PERF_DEFAULT_GOV := walt
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
     vendor_dsp_mountpoint \
-    vendor_firmware_mnt_mountpoint \
-    vendor_vm-system_mountpoint
+    vendor_firmware_mnt_mountpoint
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
